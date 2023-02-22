@@ -1,0 +1,21 @@
+.heading{
+    font-size: 24px;
+}
+
+.jaedon:hover{
+    background-color: red;
+    border-width: 0px;
+}
+
+canvas{
+    animation-name: jaedon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes jaedon{
+    from{box-shadow: 10px 10px 60px red}
+    to{box-shadow: 10px 10px 60px darkblue}
+}
+
